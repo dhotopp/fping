@@ -1,4 +1,4 @@
-usage: fping.py [-h] [-b] [-c] [-f] [-i I] [-n N] [-l LOWEST_NOTE] [--rtt_divisor RTT_DIVISOR] [--rtt_target RTT_TARGET] [-s S]
+usage: fping.py [-h] [-b] [-c] [-f] [-i I] [-n N] [-l c] [--rtt_divisor RTT_DIVISOR] [--rtt_target RTT_TARGET] [-s S]
                 [-t T] [-w W] [-r] [-m MAX_SIZE]
                 host
 
@@ -14,7 +14,7 @@ options:
   -f                    Set Don't Fragment flag in packet.
   -i I                  TTL value.
   -n N                  Number of echo requests to send.
-  -l LOWEST_NOTE, --lowest_note LOWEST_NOTE
+  -l LOW_Root_NOTE, --LOW_Root_NOTE LOW_Root_NOTE
                         Lowest beep note (default: A#3
   --rtt_divisor RTT_DIVISOR
                         Divisor for latancy RTT when calculating freq
