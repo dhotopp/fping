@@ -2,7 +2,7 @@ usage: fping.py [-h] [-b] [-c] [-f] [-i I] [-n N] [-l LOWEST_NOTE] [--rtt_diviso
                 [-t T] [-w W] [-r] [-m MAX_SIZE]
                 host
 
-Ping a host with custom options.
+Ping a host with custom options, including RTT freq sound with -b option
 
 positional arguments:
   host                  Host to ping.
